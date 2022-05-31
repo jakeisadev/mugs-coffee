@@ -17,11 +17,35 @@
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
   crossorigin="anonymous"
 />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Mugs Coffee</title>
   </head>
   <body>
     <div id="root"></div>
-    <nav>
+    <div class="background">
+      <div class="nav">
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+            <div class="logo">
+            </div>
+            <div class="menu-items">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Contact</a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    <nav class="d-flex flex-row">
       <ul>
         <a href="#"><li class="nav-item-home">Home</li></a>
         <a href="#"><li class="nav-item">Menu</li></a>
@@ -30,13 +54,33 @@
         <a href="#"><li class="nav-item">Contact</li></a>
       </ul>
     </nav>
+    </div>
     <div class="grid-container">
       <div class="home-contents row">
-     <div class='col-3 sidebar'>
-        Sidebar
-      </div>
-      <div class='col-9 main'>
-        Main Content
+      <div class='col-12 main'>
+        <div class="mugs-article-1">
+          <img src="/images/mugs7.jpg" class="mugs-photo">
+        <section id="home">
+          <article class="lg lead" id="intro-text">
+            Welcome to Mugs Coffee!  If you’re looking for a place to have amazing coffee drinks
+            and a relaxing atmosphere, this is the place for you. We are located in the Park 
+            Selwyn Shopping Center, on the corner of Park Rd and Selwyn Ave, next to Portofino’s 
+            Italian Restaurant and Lucky Lou’s Tavern, right in the South Park/South Charlotte area!
+            So, if you live near, or are driving by this area, come visit us here at Mugs, where
+            there is plenty of seating and space to suit your needs. It is the perfect place to 
+            have meetings, small events, or just make this place into your second office! We cater
+            to all your needs. 
+          </article>
+          <div class="wifi">
+            <div class="icon">test</div>
+            <div class="wifi-info">
+            <h1>Free Wifi</h1>
+            <h5>(Click to reveal)</h5>
+            </div>
+            <div class="icon">test</div>
+          </div>
+          </section>
+        </section>
       </div>
       </div>
       </div>
