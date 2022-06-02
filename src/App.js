@@ -5,15 +5,21 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  BrowserRouter
 } from "react-router-dom";
 import {useState} from 'react';
 
-function App() {
+function Menu() {
   return (
-    <div>
-    </div>
+    <BrowserRouter>
+    <Link to="/Home"></Link>
+    <Link to="/About"></Link>
+    <Link to="/Menu"></Link>
+    <Link to="/Events"></Link>
+    <Link to="/Contact"></Link>
+    </BrowserRouter>
   );
 }
 
-export default App;
+export default Menu;
